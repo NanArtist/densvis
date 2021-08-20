@@ -33,15 +33,15 @@ t_dens = np.stack((t_ro,t_re)).transpose()
 print('-- Saving denSNE --')
 print('Embedding: densne_trial_emb.txt')
 print('Densities: densne_trial_dens.txt')
-np.savetxt('densne_trial_emb.txt', emb)
-np.savetxt('densne_trial_dens.txt', dens)
+np.savetxt('trial/densne_trial_emb.txt', emb)
+np.savetxt('trial/densne_trial_dens.txt', dens)
 
 
 print('-- Saving tSNE --')
 print('Embedding: tsne_trial_emb.txt')
 print('Densities: tsne_trial_dens.txt')
-np.savetxt('tsne_trial_emb.txt', t_emb)
-np.savetxt('tsne_trial_dens.txt', t_dens)
+np.savetxt('trial/tsne_trial_emb.txt', t_emb)
+np.savetxt('trial/tsne_trial_dens.txt', t_dens)
 
 
 # Plotting (if Matplotlib installed)
@@ -91,7 +91,6 @@ if mpl:
     ax[1,0].set_yticklabels('')
     ax[1,0].set_yticks([])
     
-    fig.savefig('densne_trial_fig.png', bbox_inches='tight')
+    fig.savefig('trial/densne_trial_fig.png', bbox_inches='tight')
 
     plt.show()
-
