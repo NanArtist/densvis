@@ -1,0 +1,59 @@
+Running denSNE
+Running tSNE
+Printing: 70000, 784, 0.500000, 50.000000, 2, 1000
+Read the 70000 x 784 data matrix successfully!
+dens_frac: 0.000000
+dens_lambda: 0.000000
+final_dens: 1
+skip_init: 0
+Using random seed: 0
+Using no_dims = 2, perplexity = 50.000000, and theta = 0.500000
+Computing input similarities...
+Building tree...
+ - point 0 of 70000
+ - point 10000 of 70000
+ - point 20000 of 70000
+ - point 30000 of 70000
+ - point 40000 of 70000
+ - point 50000 of 70000
+ - point 60000 of 70000
+Input similarities computed in 4563.30 seconds (sparsity = 0.003071)!
+Learning embedding...
+Iteration 50: error is 114.263238 (50 iterations in 60.57 seconds)
+Iteration 100: error is 114.263238 (50 iterations in 65.30 seconds)
+Iteration 150: error is 114.262833 (50 iterations in 73.80 seconds)
+Iteration 200: error is 108.289792 (50 iterations in 84.10 seconds)
+Iteration 250: error is 5.929168 (50 iterations in 64.41 seconds)
+Iteration 300: error is 4.663245 (50 iterations in 59.29 seconds)
+Iteration 350: error is 4.269574 (50 iterations in 58.31 seconds)
+Iteration 400: error is 4.040219 (50 iterations in 58.16 seconds)
+Iteration 450: error is 3.878887 (50 iterations in 59.70 seconds)
+Iteration 500: error is 3.756153 (50 iterations in 61.06 seconds)
+Iteration 550: error is 3.658480 (50 iterations in 60.79 seconds)
+Iteration 600: error is 3.577732 (50 iterations in 60.77 seconds)
+Iteration 650: error is 3.509526 (50 iterations in 60.58 seconds)
+Iteration 700: error is 3.451120 (50 iterations in 60.62 seconds)
+Iteration 750: error is 3.400299 (50 iterations in 60.65 seconds)
+Iteration 800: error is 3.355140 (50 iterations in 60.92 seconds)
+Iteration 850: error is 3.314991 (50 iterations in 60.82 seconds)
+Iteration 900: error is 3.278784 (50 iterations in 61.02 seconds)
+Iteration 950: error is 3.245824 (50 iterations in 61.33 seconds)
+Iteration 1000: error is 3.215620 (50 iterations in 60.98 seconds)
+Fitting performed in 1253.17 seconds.
+Computing embedding local densities
+Building tree...
+ - point 0 of 70000
+ - point 10000 of 70000
+ - point 20000 of 70000
+ - point 30000 of 70000
+ - point 40000 of 70000
+ - point 50000 of 70000
+ - point 60000 of 70000
+Wrote the 70000 x 2 data matrix successfully!
+-- Saving denSNE --
+emb: densne_mnist_emb.txt
+Densities: densne_mnist_dens.txt
+-- Saving tSNE --
+emb: tsne_mnist_emb.txt
+Densities: tsne_mnist_dens.txt
+Plotting

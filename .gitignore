@@ -1,6 +1,5 @@
-
 .idea
-*.ipynb
+# *.ipynb
 *.py[oc]
 .vscode
 
@@ -9,7 +8,7 @@ bh_tsne
 den_sne
 
 # ignore data files
-*.txt
+# *.txt
 *.tsv
 *.npy
 *.csv
@@ -18,7 +17,7 @@ den_sne
 # ignore auto-saved stuff
 *~
 \#*\#
-*.png
+# *.png
 \#*
 
 # ignore build folder
